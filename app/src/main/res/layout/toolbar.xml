@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/toolbar"
+    android:background="?attr/colorPrimary"
+    android:minHeight="?attr/actionBarSize">
+    <ImageView
+        android:id="@+id/user_img"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@mipmap/ic_launcher"
+        />
+    <info.hoang8f.android.segmented.SegmentedGroup
+        android:id="@+id/segmented4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/in_match"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="竞赛"
+            style="@style/RadioButton" />
+        <RadioButton
+            android:id="@+id/in_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="活动"
+            style="@style/RadioButton" />
+
+    </info.hoang8f.android.segmented.SegmentedGroup>
+
+</android.support.v7.widget.Toolbar>

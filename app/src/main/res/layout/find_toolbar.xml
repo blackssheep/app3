@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/find_toolbar"
+    android:background="@color/colorAccent"
+    android:minHeight="?attr/actionBarSize">
+    <RelativeLayout
+        android:id="@+id/fd_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/app_green"
+        android:layout_margin="10dp">
+        <ImageView
+            android:id="@+id/fd_img"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:src="@mipmap/ss"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/fd_img"
+            android:layout_margin="5dp"
+            android:textSize="18dp"
+            android:textColor="@color/aluminum"
+            android:text="搜索"/>
+    </RelativeLayout>
+</android.support.v7.widget.Toolbar>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/my_main" android:icon="@mipmap/myhome"
+            android:title="我的主页" />
+        <item android:id="@+id/my_mess" android:icon="@mipmap/mine"
+            android:title="我的信息" />
+        <item android:id="@+id/my_attent" android:icon="@mipmap/attent"
+            android:title="我的关注" />
+        <item android:id="@+id/my_fan" android:icon="@mipmap/fan"
+            android:title="我的粉丝" />
+        <item android:id="@+id/my_collect" android:icon="@mipmap/collect"
+            android:title="我的收藏" />
+    </group>
+
+    <item android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/up_or_pub" android:icon="@mipmap/pub"
+                android:title="发布信息" />
+            <item android:id="@+id/fit" android:icon="@mipmap/fit"
+                android:title="设置" />
+        </menu>
+    </item>
+
+</menu>
